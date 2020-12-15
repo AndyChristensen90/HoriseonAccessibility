@@ -11,7 +11,7 @@ This includes replacing non semantic tags (`<div>`, `<span>`) with semantic tags
 
 - [ ] Application's links all function correctly.
 
- [ ] Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+- [ ] Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
 
 - [ ] Application's CSS file is properly commented.
 
