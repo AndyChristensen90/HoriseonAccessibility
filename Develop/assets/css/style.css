@@ -4,10 +4,21 @@
     margin: 0;
 }
 
+/* moved a and p rules to top as they relate to all anchor and paragraph in HTML*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
 
+/* consolidated multiple header rules to single rules when all properties and values aligned. updated rule name accordingly*/ 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +31,8 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/*felt that updating rule name to .seo with the class added less bulk*/
+.seo {
     color: #d9dcd6;
 }
 
@@ -34,31 +46,17 @@ header nav {
 }
 
 header nav {
-    list-style-type: none;
-}
-
-header nav {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
-
+/*updated background photo link into HTML for better accessibility reading, updated rule selector accordingly*/
 .backgroundPhoto {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
 }
-
-/* this is where I left off */
 
 .float-left {
     float: left;
@@ -70,12 +68,14 @@ p {
     margin-left: 25px;
 }
 
+/*updated rule selector to fit with HTML. Consolidated rules with alligning properties and values*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*made use of using multiple tags in rule selectors with alligning properties and values*/
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -94,6 +94,7 @@ main section h2 {
     font-size: 36px;
 }
 
+/*consolidated multiple aside rules to single rules when all properties and values aligned. updated rule name accordingly*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -105,6 +106,7 @@ aside {
     background-color: #2589bd;
 }
 
+/*made use of using multiple tags in rule selectors with alligning properties and values*/
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -122,6 +124,7 @@ aside section img {
     max-width: 150px;
 }
 
+/*updated rule selector to fit with HTML element names*/
 footer {
     padding: 30px;
     clear: both;

@@ -8,8 +8,10 @@
 </head>
 
 <body>
+    <!-- Used semantic <header> over non semantic <div> element-->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1> 
+        <!-- felt nav was a good alternative to list for accessibility-->
         <nav>
         <a href="#search-engine-optimization">Search Engine Optimization |</a>
         <a href="#online-reputation-management">Online Reputation Management |</a>
@@ -17,11 +19,12 @@
         </nav>
     </header>
 
-
+    <!-- cleaned up .hero using <image> for better organization aspects-->
     <img src="./assets/images/digital-marketing-meeting.jpg" alt="People in a meeting" class= "backgroundPhoto">
     
-
+    <!-- <div> element "content" can be replaced with semantic tag <main> -->
     <main>
+        <!-- replaced all <div> with semantic <section> under Main Element -->
         <section>
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left"/>
             <h2>Search Engine Optimization</h2>
@@ -47,7 +50,9 @@
         </section>
     </main>
     
+    <!-- <aside> provided additional organization over <div> with individual classes following (lead, brand, cost)-->
     <aside>
+        <!--replaced all <div> with semantic <section> under aside Element-->
         <section>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -73,6 +78,7 @@
         </section>
     </aside>
 
+    <!-- no need for .footer class when footer tag exists-->
     <footer>
         <h1>Made with ❤️️ by Horiseon</h1>
         <p>
